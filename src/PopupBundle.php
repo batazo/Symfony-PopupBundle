@@ -4,7 +4,7 @@ namespace Batazo\PopupBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
-use App\DependencyInjection\PopupExtension;
+use Batazo\PopupBundle\DependencyInjection\PopupExtension;
 
 class PopupBundle extends Bundle
 {
