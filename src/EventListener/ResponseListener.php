@@ -1,6 +1,6 @@
 <?php
 
-namespace App\EventListener;
+namespace Batazo\PopupBundle\EventListener;
 
 
 use Symfony\Component\HttpKernel\Event\ResponseEvent;

@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Batazo\PopupBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
