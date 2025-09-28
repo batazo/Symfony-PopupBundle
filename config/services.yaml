@@ -1,0 +1,7 @@
+services:
+  App\EventListener\ResponseListener:
+    arguments:
+      $enabled: '%popup_bundle.enable%'
+      $text: '%popup_bundle.text%'
+    tags:
+      - { name: kernel.event_listener, event: kernel.response }
