@@ -1,5 +1,6 @@
 {
   "name": "batazo/popup-bundle",
+  "version": "0.1",
   "type": "symfony-bundle",
   "autoload": {
     "psr-4": {
