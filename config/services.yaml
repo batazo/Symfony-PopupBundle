@@ -1,6 +1,7 @@
 services:
   Batazo\PopupBundle\EventListener\ResponseListener:
     arguments:
+      $twig: '@twig'
       $enabled: '%popup_bundle.enable%'
       $text: '%popup_bundle.text%'
     tags:

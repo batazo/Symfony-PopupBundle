@@ -2,7 +2,6 @@
 
 namespace Batazo\PopupBundle\EventListener;
 
-
 use Symfony\Component\HttpKernel\Event\ResponseEvent;
 use Twig\Environment;
 
@@ -24,7 +23,7 @@ class ResponseListener {
         $content = $response->getContent();
 
         if (strpos($content, '</body>') !== false) {
-            $popupHtml = $this->twig->render('view.html.twig', ['text' => $this->text]);
+            $popupHtml = $this->twig->render('@popup/view.html.twig', ['text' => $this->text]);
             $content = str_replace('</body>', $popupHtml . '</body>', $content);
             $response->setContent($content);
         }
