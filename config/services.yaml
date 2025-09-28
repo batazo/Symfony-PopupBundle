@@ -1,5 +1,5 @@
 services:
-  App\EventListener\ResponseListener:
+  Batazo\PopupBundle\EventListener\ResponseListener:
     arguments:
       $enabled: '%popup_bundle.enable%'
       $text: '%popup_bundle.text%'
