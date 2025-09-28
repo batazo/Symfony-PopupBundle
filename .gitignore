@@ -1,0 +1,34 @@
+# Composer
+/vendor/
+composer.lock
+
+# Symfony cache és logok (ha futtatod külön)
+/var/
+/cache/
+/logs/
+
+# IDE fájlok
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS fájlok
+.DS_Store
+Thumbs.db
+
+# PHPStorm / JetBrains
+*.iml
+*.iws
+*.ipr
+out/
+
+# PHPUnit
+.phpunit.result.cache
+
+# Env fájlok (ha használsz teszteléshez)
+.env.local
+.env.test
+.env.dev
+.env.prod
+.env.*
